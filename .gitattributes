@@ -1,0 +1,75 @@
+# Disable detection for all files by default
+* linguist-detectable=false
+
+# Enable detection ONLY for desired language(s) — delete all others except the one you want to keep
+
+# Python
+*.py linguist-detectable=true
+
+# JavaScript
+*.js linguist-detectable=true
+
+# TypeScript
+*.ts linguist-detectable=true
+
+# C++
+*.cpp linguist-detectable=true
+*.hpp linguist-detectable=true
+*.h linguist-detectable=true
+*.cc linguist-detectable=true
+
+# C#
+*.cs linguist-detectable=true
+
+# Java
+*.java linguist-detectable=true
+
+# Go
+*.go linguist-detectable=true
+
+# Rust
+*.rs linguist-detectable=true
+
+# Ruby
+*.rb linguist-detectable=true
+
+# PHP
+*.php linguist-detectable=true
+
+# Kotlin
+*.kt linguist-detectable=true
+
+# Swift
+*.swift linguist-detectable=true
+
+# Dart
+*.dart linguist-detectable=true
+
+# HTML
+*.html linguist-detectable=true
+
+# CSS
+*.css linguist-detectable=true
+
+# SCSS / SASS
+*.scss linguist-detectable=true
+*.sass linguist-detectable=true
+
+# Shell
+*.sh linguist-detectable=true
+
+# PowerShell
+*.ps1 linguist-detectable=true
+
+# YAML
+*.yml linguist-detectable=true
+*.yaml linguist-detectable=true
+
+# JSON
+*.json linguist-detectable=true
+
+# Markdown
+*.md linguist-detectable=true
+
+# SQL
+*.sql linguist-detectable=true

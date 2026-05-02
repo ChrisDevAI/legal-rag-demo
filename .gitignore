@@ -1,0 +1,86 @@
+##############################
+#   PYTHON
+##############################
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+##############################
+#   JAVASCRIPT / NODE / VITE
+##############################
+
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment files
+.npmrc
+
+##############################
+#   SYSTEM FILES
+##############################
+
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+##############################
+#   EDITOR / IDE FILES
+##############################
+
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+##############################
+#   GENERAL JUNK
+##############################
+
+*.log
+*.tmp
+*.swp
+*.bak
+*.orig
+*.old
+*.rej
+
+##############################
+#   MAC SPECIFIC
+##############################
+
+.AppleDouble
+.LSOverride
