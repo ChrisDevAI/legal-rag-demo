@@ -26,6 +26,14 @@ dist/
 .eggs/
 
 ##############################
+#   NEXT.JS
+##############################
+
+.next/
+out/
+.vercel/
+
+##############################
 #   JAVASCRIPT / NODE / VITE
 ##############################
 
@@ -84,3 +92,28 @@ Icon?
 
 .AppleDouble
 .LSOverride
+
+##############################
+#   PYTHON TESTING / CACHE
+##############################
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+##############################
+#   RAG / LOCAL DATA ARTIFACTS
+##############################
+
+data/raw/
+data/processed/
+vector_store/
+chroma/
+chroma_db/
+faiss_index/
+*.faiss
+*.pkl
+*.sqlite3
