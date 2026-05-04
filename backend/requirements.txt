@@ -1,0 +1,18 @@
+# backend/requirements.txt
+
+
+fastapi
+uvicorn[standard]
+python-dotenv
+
+# LangChain core and integrations
+langchain
+langchain-openai
+langchain-chroma
+langchain-community
+
+# Vector database
+chromadb
+
+# PDF extraction
+pypdf
