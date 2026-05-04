@@ -117,3 +117,19 @@ faiss_index/
 *.faiss
 *.pkl
 *.sqlite3
+
+##############################
+#   LEGAL RAG DEMO ARTIFACTS
+##############################
+
+# Generated/local RAG artifacts
+backend/.rag_artifacts/
+
+# Local Chroma/vector stores
+backend/chroma/
+backend/chroma_db/
+backend/vector_store/
+
+# Temporary uploads
+backend/uploads/
+backend/tmp/
